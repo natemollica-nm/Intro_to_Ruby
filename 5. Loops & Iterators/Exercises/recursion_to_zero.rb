@@ -2,7 +2,7 @@
 
 def subone_recursion(num)
   puts "Still counting down..."
-  puts num -= 3
+  puts num -= 1
   unless num <= 0
     subone_recursion(num)
   end
