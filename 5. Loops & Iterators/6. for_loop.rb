@@ -3,7 +3,7 @@
 # This differs from the while loop that can cause an infinite loop.
 # Works in conjunction with the 'for' and 'in' reserved words. (ex: for <variable> in <collection_of_elements>)
 
-# Iterating thorugh Range using For Loop
+# Iterating through Range using For Loop
 x = gets.chomp.to_i
 
 for i in 1..x do

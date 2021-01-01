@@ -5,7 +5,7 @@
 names = ['bob', 'nate', 'is', 'wuz', 'hat-been', 'hat-wuz']
 x = 1
 
-names. each do |thingy|
+names.each do |thingy|
   puts "#{x}. #{thingy}"
   x += 1
 end
