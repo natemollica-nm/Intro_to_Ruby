@@ -16,8 +16,6 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
 # 4. Return only the values of the key value hash.
 # 5. Group the return by the values and return that as an array.
 
-
-
 def anagram(word_array)
 output = word_array.group_by { |word| word.each_char.sort}.values
 end
