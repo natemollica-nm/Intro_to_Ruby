@@ -9,4 +9,7 @@ new_movies_hash = {:"The Avengers" => 2012, :"The Skeleton Twins" => 2014,
 
 movies_hash.merge!(new_movies_hash)
 
-p movies_hash.include? :"Wedding Crashers"
+p movies_hash.include? :"Wedding Crashers" # False
+
+p movies_hash.include? :Friday # True
+
