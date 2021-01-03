@@ -25,14 +25,14 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
 #     ["n", "e", "o", "n"]
 # .sort - Sorts each element of enumerator (array of characters arrays) alphabetically.
 #  POST SORTING (- = repeated element in array)
-# ["d", "e", "m", "o"]
-# ["e", "n", "n", "o"]
-# ["d", "e", "i", "t"]
-# ["e", "i", "l", "v"]
+#                       ["d", "e", "m", "o"]
+#                       ["e", "n", "n", "o"]
+#                       ["d", "e", "i", "t"]
+#                       ["e", "i", "l", "v"]
 # ["d", "e", "m", "o"] -
 # ["d", "e", "m", "o"] - 
 # ["e", "i", "l", "v"] -
-# ["f", "l", "o", "w"]
+#                       ["f", "l", "o", "w"]
 # ["e", "i", "l", "v"] -
 # ["f", "l", "o", "w"] -
 # ["d", "e", "i", "t"] -
@@ -57,7 +57,7 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
 #               [["demo", "dome", "mode"], ["none", "neon"], ["tied", "diet", "edit", "tide"], ["evil", "live", "veil", "vile"], ["fowl", "wolf", "flow"]]
 
 def anagram(word_array)
-  word_array.group_by { |word| word.chars.sort}.values
+  word_array.group_by { |word| word.chars.sort }.values
   binding.pry
 end
 
