@@ -1,4 +1,5 @@
-# Procs - blocks that are wrapped in a proc object and stored in a variable to be re-used.
+# Procs - blocks that are wrapped in a proc object and stored in a variable to 
+# be re-used.
 
 talk = Proc.new do
   puts "I am talking."
